@@ -1,7 +1,7 @@
 import { FaAward } from "react-icons/fa";
 import React from "react";
 import { VscFolderLibrary } from "react-icons/vsc";
-import img from "../Assets/athuljain.jpg";
+import img from "../Assets/aslam-pic.JPG";
 import "./Intro.css";
 
 const Intro = () => {
@@ -20,12 +20,12 @@ const Intro = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>1.5 year</small>
+              <small>3.5 year</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>4+ Completed Projects</small>
+              <small>3+ Completed Projects</small>
             </article>
           </div>
           <p>

@@ -10,7 +10,7 @@ const Experience = () => {
       <div className="container experience__container">
         <div className="experience__frontend">
           <h3>Full-Stack-Development</h3>
-          <h4>Mern Stack</h4>
+          {/* <h4>Mern Stack</h4> */}
           <div className="experience__content">
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
@@ -40,9 +40,33 @@ const Experience = () => {
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>MongoDB</h4>
             </article>
+          </div>
+          <h3>Digital Marketing</h3>
+          {/* <h4>Mern Stack</h4> */}
+          <div className="experience__content">
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Digital Marketing</h4>
+              <h4>SEO</h4>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>Social Media Marketing</h4>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>PPC</h4>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>Search Engine Marketing</h4>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>Content Marketing</h4>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>E-mail & Video Marketing</h4>
             </article>
           </div>
         </div>

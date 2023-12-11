@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <footer>
       <a href="#home" className="footer__logo">
-        Athul Jain
+        Mohammed Aslam
       </a>
       <ul className="permalinks">
         <li>
@@ -34,21 +34,21 @@ const Footer = () => {
       </ul>
       <div className="footer__socials">
         <a
-          href="https://www.linkedin.com/in/athul-jain-5382b0215/"
+          href="https://www.linkedin.com/in/aslam-mohammed-dm/"
           target="_blank"
           rel="noopener noreferrer"
         >
           <BsLinkedin />
         </a>
         <a
-          href="https://github.com/athuljain/"
+          href="https://github.com/aslampersonal/"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaGithub />
         </a>
         <a
-          href="https://instagram.com/athul_jain?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D/"
+          href="https://instagram.com/himalayan_beatz/"
           target="_blank"
           rel="noopener noreferrer"
         >

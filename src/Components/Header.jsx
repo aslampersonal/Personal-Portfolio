@@ -4,18 +4,17 @@ import { FaGithub } from "react-icons/fa";
 import {AiFillInstagram} from "react-icons/ai"
 import "./Header.css";
 
-//import AthulJainResumePDF from "../Assets/AthulJainResume.pdf";
-import AthulJainResume from "../Assets/AthulJain.pdf"
+import MohammedAslamResume from "../Assets/MohammedAslamResume.pdf"
 
 const Header = () => {
   return (
     <header id="home">
       <div className="container header-container">
         <h5>Hello I'm</h5>
-        <h1>Athul Jain</h1>
+        <h1>Mohammed Aslam</h1>
         <h5 className="text-light">Mern-Stack-Developer</h5>
         <div className="cta">
-          <a href={AthulJainResume} download className="btn">
+          <a href={MohammedAslamResume} download className="btn">
             Download CV
           </a>
           <a href="#contact" className="btn btn-primary">
