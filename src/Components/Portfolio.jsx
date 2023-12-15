@@ -25,7 +25,7 @@ const portfolio = () => {
       img: IMG2,
       description: "Todo Application.",
       technologies: "React | Redux",
-      link: "https://main--marvelous-trifle-b2888a.netlify.app/",
+      link: "https://redux-to-do-kappa.vercel.app/",
       github: "https://github.com/aslampersonal/Redux-ToDo.git",
     },
     // {
