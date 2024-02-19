@@ -1,7 +1,7 @@
-import IMG1 from "../Assets/ucosEcommerce.png";
+import IMG1 from "../Assets/ucosEcommerce.jpg";
 import IMG2 from "../Assets/todoredux.png";
 import IMG3 from "../Assets/AudioPlayer.png";
-import IMG4 from "../Assets/PersonalPortfolio.png"
+import IMG4 from "../Assets/PersonalPortfolio.jpg"
 import React from "react";
 import "./Portfolio.css";
 
