@@ -1,10 +1,7 @@
-import IMG1 from "../Assets/reactEcomerce.png";
+import IMG1 from "../Assets/ucosEcommerce.png";
 import IMG2 from "../Assets/todoredux.png";
-import IMG3 from "../Assets/backend.png";
-import IMG4 from "../Assets/perosnalPortfolio.jpg"
- // import IMG4 from "../../assets/Covid-19 Project.jpg";
-// import IMG5 from "../../assets/Jokes Project.jpg";
-// import IMG6 from "../../assets/Project4.jpg";
+import IMG3 from "../Assets/AudioPlayer.png";
+import IMG4 from "../Assets/PersonalPortfolio.png"
 import React from "react";
 import "./Portfolio.css";
 
@@ -12,9 +9,9 @@ const portfolio = () => {
   const soloProjects = [
     {
       id: 1,
-      title: "UCOS - E-commerce MERN Stack Project",
-      img: IMG3,
-      description: "UCOS (online cosmetic shop) - E-commerce MERN Stack Project ",
+      title: "UCOS - E-commerce",
+      img: IMG1,
+      description: "UCOS (online cosmetic shop) - E-commerce using MERN Stack Tech. ",
       technologies: "NodeJs | Express | MongoDB | React Js | HTML | CSS | Javascript",
       link: "https://github.com/aslampersonal/ecos.git",
       github: "https://github.com/aslampersonal/ecos.git",
@@ -28,15 +25,15 @@ const portfolio = () => {
       link: "https://redux-to-do-kappa.vercel.app/",
       github: "https://github.com/aslampersonal/Redux-ToDo.git",
     },
-    // {
-    //   id: 3,
-    //   title: "Online Furniture Shop Website with React.js",
-    //   img: IMG1,
-    //   description: "An Online Furniture Shop Website.",
-    //   technologies: "Html | CSS | Javascript | React Js",
-    //   link: "https://lucky-hummingbird-9e9472.netlify.app/",
-    //   github: "https://github.com/athuljain/React-online-furniture-shop",
-    // },
+    {
+      id: 3,
+      title: "Simple Audio Player",
+      img: IMG3,
+      description: "Simple Audio Player using ReactJs",
+      technologies: "Html | CSS | Javascript | React Js",
+      link: "https://audio-player-app-ten.vercel.app/",
+      github: "https://github.com/aslampersonal/audio-player-app",
+    },
     {
       id: 4 ,
       title: "Personal Portfolio app",
@@ -50,15 +47,15 @@ const portfolio = () => {
 
   return (
     <section id="portfolio">
-      <h5>My Recent Work</h5>
+      <h5>My Recent Works</h5>
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
         {soloProjects.map((pro) => (
           <article className="portfolio__item" key={pro.id}>
-            {/* <div className="portfolio__item-image">
+            <div className="portfolio__item-image">
               <img src={pro.img} alt={pro.title} />
-            </div> */}
+            </div>
             <div className="portfolio__item-content">
               <h3>{pro.title}</h3>
               <p>{pro.description}</p>

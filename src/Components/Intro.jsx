@@ -20,21 +20,17 @@ const Intro = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>3.5 year</small>
+              <small>3.7 years</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>3+ Completed Projects</small>
+              <small>4+ Completed Projects</small>
             </article>
           </div>
           <p>
-            I am a highly skilled and motivated web developer with expertise in
-            MERN Stack. Proficient in Front-End Development, including React and
-            its libraries, as well as Back-End development using NodeJS,
-            ExpressJS, and MongoDB.Seeking an opportunity to work in an
-            environment that will enhance my knowledge and career, and make a
-            positive impact on the success of the company
+          Hello! 👋 Evolved from Digital Marketing to MERN Stack Development.<br/>
+          Skilled in crafting seamless online experiences with expertise in MongoDB, Express.js, React, and Node.js. Committed to mastering Marketing, SEO, and advancing in the dynamic realm of web development. 🚀
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
