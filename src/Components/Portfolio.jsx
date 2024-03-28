@@ -1,7 +1,8 @@
 import IMG1 from "../Assets/ucosEcommerce.jpg";
 import IMG2 from "../Assets/todoredux.png";
 import IMG3 from "../Assets/AudioPlayer.png";
-import IMG4 from "../Assets/PersonalPortfolio.jpg"
+import IMG4 from "../Assets/weatherApp.png";
+import IMG5 from "../Assets/PersonalPortfolio.jpg"
 import React from "react";
 import "./Portfolio.css";
 
@@ -35,9 +36,18 @@ const portfolio = () => {
       github: "https://github.com/aslampersonal/audio-player-app",
     },
     {
-      id: 4 ,
-      title: "Personal Portfolio app",
+      id: 4,
+      title: "Live Weather App",
       img: IMG4,
+      description: "Simple Live Weather App using ReactJs",
+      technologies: "Html | CSS | Javascript | React Js",
+      link: "https://realtime-weather-app-seven.vercel.app/",
+      github: "https://github.com/aslampersonal/realtime-weather-app",
+    },
+    {
+      id: 5 ,
+      title: "Personal Portfolio app",
+      img: IMG5,
       description: "Personal Portfolio app ",
       technologies: "HTML | CSS | JavaScript | ReactJS ",
       link: "https://aslam-mohammed.vercel.app/",
