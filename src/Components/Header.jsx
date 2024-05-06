@@ -12,7 +12,7 @@ const Header = () => {
       <div className="container header-container">
         <h5>Hello I'm</h5>
         <h1>Mohammed Aslam</h1>
-        <h5 className="text-light">Mern-Stack-Developer</h5>
+        <h4 className="text-light">Digital Marketing Expert & Software Developer</h4>
         <div className="cta">
           <a href={MohammedAslamResume} download className="btn">
             Download CV
@@ -27,21 +27,21 @@ const Header = () => {
 
         <div className="header__socials">
           <a
-            href="https://www.linkedin.com/in/athul-jain-5382b0215/"
+            href="https://www.linkedin.com/in/aslam-mohammed-dm"
             target="_blank"
             rel=" noreferrer"
           >
             <BsLinkedin />
           </a>
           <a
-            href="https://github.com/athuljain/"
+            href="https://github.com/aslampersonal"
             target="_blank"
             rel=" noreferrer"
           >
             <FaGithub />
           </a>
           <a
-            href="https://instagram.com/athul_jain?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D/"
+            href="https://www.instagram.com/aslam._.mohammed._/"
             target="_blank"
             rel=" noreferrer"
           >
